@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnotherClass : MonoBehaviour
 {
-    public int applies;
+    public int apples;
     public int bananas;
 
 
@@ -14,8 +14,8 @@ public class AnotherClass : MonoBehaviour
 
     public void FruitMachine(int a, int b)
     {
-        int answerr;
-        answerr = a + b;
+        int answer;
+        answer = a + b;
         Debug.Log("Fruit total: " + answer);
     }
 
@@ -25,7 +25,7 @@ public class AnotherClass : MonoBehaviour
         answer = a + b;
         Debug.Log("Office Supplies total: " + answer);
     }
-}
+
     // Start is called before the first frame update
     void Start()
     {
